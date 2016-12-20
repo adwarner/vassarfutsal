@@ -1,0 +1,242 @@
+<{% extends "personal/header.html" %}>
+{% block content %}
+	{% load staticfiles %}
+	<h3> <center> Lifting Leaderboard </center> </h3>
+	
+	
+<html>
+
+<style>
+table {
+    width:80%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#t01 th {
+    background-color: darkred;
+    color: white;
+}
+</style>
+
+<body>
+<center>
+<table id="t01">
+  <tr>
+    <th><center>Lift</th>
+    <th><center>Player</th> 
+    <th><center>Weight Moved (Lbs)</th>
+
+  </tr>
+  
+  <tr>
+    <td rowspan="3"><center><font color="darkred">Squat</font></td>
+
+    <td><center>Desmond Curran</td>
+    <td><center>345</td>
+    
+  </tr>
+    <tr>
+    <td><center>Adam Warner</td>
+    <td><center>330</td>
+  </tr>
+    <tr>
+   
+    <td><center>Jose Novas</td>
+    <td><center>320</td>
+  </tr>
+  <tr>
+    <td rowspan="3"><center><font color="darkred">Clean </font></td>
+    <td><center>Desmond Curran</td>
+    <td><center>240</td>
+  </tr>
+    <tr>
+    <td><center>Adam Warner</td>
+    <td><center>225</td>
+  </tr>
+    <tr>
+    <td><center>Benjamin Scudder/ Noah Snider</td>
+    <td><center>220</td>
+  </tr>
+  
+  
+  <tr>
+    <td rowspan="3"><center><font color="darkred">Bench </font></td>
+    <td><center>John Lopes</td>
+    <td><center>265</td>
+  </tr>
+  <tr>
+   
+    <td><center>Reid Smith</td>
+    <td><center>255</td>
+  </tr>
+    <tr>
+    <td><center>Jose Novas</td>
+    <td><center>250</td>
+  </tr>
+
+  
+</table>
+</center>
+</body>
+</html>
+<br>
+
+
+
+
+<br> 
+<h3> <center> Did You Lift This Semester? </center></h3> 
+
+
+
+<html>
+
+<style>
+table {
+    width:50%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+table#t02 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t02 tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#t02 th {
+    background-color: darkred;
+    color: white;
+}
+</style>
+
+<body>
+<center>
+<table id="t02">
+  <tr>
+    <th>Player</th>
+    <th>Number of Times Went to Cams</th> 
+
+  </tr>
+  <tr>
+    <td>Desmond Curran</td>
+    <td>?</td>
+  </tr>
+ 
+   <tr>
+    <td>Henrik Olsson</td>
+    <td>?</td>
+  </tr>
+  
+    <tr>
+    <td>Jose Novas</td>
+    <td>?</td>
+    
+	<tr>
+    <td>Kevin Bailat</td>
+    <td>?</td>
+  </tr>
+  
+  <tr>
+    <td>Mitch Davis</td>
+    <td>?</td>
+  </tr>
+    
+    <tr>
+    <td>Nate Kim</td>
+    <td>?</td>
+  </tr>
+  
+  <tr>
+    <td>Reid Smith</td>
+    <td>?</td>
+  </tr>
+  
+  <tr>
+    <td>Loizos Karaiskos</td>
+    <td>?</td>
+  </tr>
+  
+  <tr>
+    <td>Benjamin Scudder</td>
+    <td>?</td>
+  </tr>
+    
+    <tr>
+    <td>Noah Snider</td>
+    <td>?</td>
+  </tr>
+    
+    <tr>
+    <td>Tanner Sands</td>
+    <td>?</td>
+  </tr>
+  
+  <tr>
+    <td>Tim "Rock" Collins</td>
+    <td>?</td>
+  </tr>
+  
+  <tr>
+    <td>Toby Stansell</td>
+    <td>?</td>
+  </tr>
+  
+  <tr>
+    <td>Tyler Gilmore</td>
+    <td>?</td>
+  </tr>
+  
+  <tr>
+    <td>Matt Marcelino</td>
+    <td>?</td>
+  </tr>
+  
+  <tr>
+    <td>Charles Waltz-Chesnaye</td>
+    <td>?</td>
+  </tr>
+  
+  <tr>
+    <td>Will Marment</td>
+    <td>?</td>
+  </tr>
+  
+	<tr>
+    <td>TK Murphy*</td>
+    <td>?</td>
+  </tr>
+  
+    <tr>
+    <td>Mattie Mrlik*</td>
+    <td>?</td>
+  </tr>  
+  <tr> * Denotes two sport athlete, and in still in season during the soccer offseason </tr>
+</table>
+</center>
+</body>
+</html>
+<br>
+
+
+
+
+
+{% endblock %}	

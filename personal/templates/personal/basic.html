@@ -1,0 +1,79 @@
+{% extends "personal/header.html" %}
+{% block content %}
+
+<h3> <center> Teams For INSERT DATE <center></h3>	
+	<html>
+
+<style>
+table {
+    width:90%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#t01 th {
+    background-color: darkred;
+    color: white;
+}
+</style>
+
+<body>
+
+<table id="t01">
+  <tr>
+    <th>Team 1</th>
+    <th>Team 2</th> 
+    <th>Team 3</th>
+	
+  </tr>
+  <tr>
+    <td>Senior</td>
+    <td>Desmond </td>
+    <td>Jose</td>
+    
+  </tr>
+  <tr>
+    <td>Kevin</td>
+    <td>Mitch</td>
+    <td>Nate</td>
+  </tr>
+  <tr>
+    <td>Reid</td>
+    <td>Rico</td>
+    <td>Scud</td>
+  </tr>
+  
+  <tr>
+    <td>Snider</td>
+    <td>Tanner</td>
+    <td>Tim</td>
+  </tr>
+    <tr>
+    <td>Senior</td>
+    <td>Toby</td>
+    <td>Tyler</td>
+  </tr>
+    <tr>
+    <td>Zo</td>
+    <td>Senior</td>
+    <td>TK</td>
+  </tr>
+</table>
+
+</body>
+</html>
+<br>
+
+
+{% endblock %}	

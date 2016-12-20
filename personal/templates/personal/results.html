@@ -1,0 +1,20 @@
+<{% extends "personal/header.html" %}>
+{% block content %}
+	{% load staticfiles %}
+	{% for c in stuff%}
+		<p><h3><center>{{c}}</h3></p>
+	{%endfor%}
+		<p> <center>Each week we will have the for the best individual broken down by defenders, midfielders, and attacks </center> </p> 
+		<p> <center> Current results are just holder values for future values. 
+	<h3> <center> Week 1 Results </center> </h3> 
+	<body>	
+	<center>
+	 	<p> <h3> Defenders </h3> <br> </p>
+	 	<img src="{% static 'personal/img/Defenders.png' %}" class="responsive-img" style='max-height:450px;' alt="face">
+	 	<br><br>
+		<p> <h3> Attackers/Midfielders</h3> <br>  </p> 
+	 	<img src="{% static 'personal/img/Attackers.png' %}" class="responsive-img" style='max-height:450px;' alt="face">
+	 </center>
+	 </body>
+
+{% endblock %}	
